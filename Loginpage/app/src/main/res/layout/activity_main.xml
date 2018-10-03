@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:ignore="MissingConstraints"
+    android:layout_height="match_parent"
+    android:background="@drawable/trump"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/lp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp"
+            android:fontFamily="casual"
+
+            android:text="“No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.”   – Donald Trump"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
